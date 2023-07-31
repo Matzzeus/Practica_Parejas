@@ -72,7 +72,7 @@ public class AhorcadoJuego {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
+    public static void InicioJuego () {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Jugador 1, ingresa la palabra a adivinar: ");
         String palabraAdivinar = scanner.next().toUpperCase();
@@ -80,6 +80,8 @@ public class AhorcadoJuego {
         AhorcadoJuego juego = new AhorcadoJuego(palabraAdivinar);
         juego.jugar();
     }
+    
+    
 }
         
 

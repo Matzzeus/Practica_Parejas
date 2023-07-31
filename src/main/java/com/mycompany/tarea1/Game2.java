@@ -96,7 +96,7 @@ public class Game2 {
                         attack(attackOption,this.player2,defenseOption);
                     }
                     else{
-                        System.out.println("\n"+this.player1+"Obtiene un tiro libre\n");
+                        System.out.println("\n"+this.player2+"Obtiene un tiro libre\n");
                         attack(3,this.player2,defenseOption);
                     }
                     turn1 = true;
