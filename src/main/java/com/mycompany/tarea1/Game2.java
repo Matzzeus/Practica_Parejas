@@ -231,8 +231,4 @@ public class Game2 {
     public int randomNumber(){
         return (int)(Math.random()*100+1);
     }
-    public static void main(String[] args) {
-        Game2 game2 = new Game2();
-        game2.game();
-    }
 }
